@@ -1,0 +1,884 @@
+{
+  "seed": 42,
+  "config": {
+    "detectors": [
+      "SIFT",
+      "ORB"
+    ],
+    "ratio_threshold": 0.75,
+    "ransac_threshold": 3.0,
+    "max_matches_to_draw": 80,
+    "max_canvas_pixels": 25000000
+  },
+  "n_runs": 28,
+  "results": [
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat1.jpg \u2192 boat2.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 796,
+      "keypoints_b": 605,
+      "matches": 242,
+      "inliers": 229,
+      "inlier_ratio": 0.9463,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 32.47,
+      "status": "ok",
+      "homography": [
+        [
+          1.2465481214412912,
+          0.01030705213096346,
+          -236.25583092060495
+        ],
+        [
+          0.07973187784421243,
+          1.1620962878921832,
+          -27.178157106717972
+        ],
+        [
+          0.0004131273299837453,
+          1.1379032594554967e-05,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat2.jpg \u2192 boat3.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 605,
+      "keypoints_b": 554,
+      "matches": 209,
+      "inliers": 182,
+      "inlier_ratio": 0.8708,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 75.28,
+      "status": "ok",
+      "homography": [
+        [
+          1.3270382728261794,
+          -0.012404955670490306,
+          -299.9581139868536
+        ],
+        [
+          0.11942415908754316,
+          1.2411768987584728,
+          -62.21106564702965
+        ],
+        [
+          0.0005272625715653433,
+          6.0283158839996507e-05,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat3.jpg \u2192 boat4.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 554,
+      "keypoints_b": 509,
+      "matches": 119,
+      "inliers": 103,
+      "inlier_ratio": 0.8655,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 55.31,
+      "status": "ok",
+      "homography": [
+        [
+          1.4587207201938095,
+          0.012402750417081112,
+          -439.0019534889735
+        ],
+        [
+          0.14409308309565608,
+          1.3494204560569822,
+          -81.35926576512398
+        ],
+        [
+          0.0007611756624598968,
+          3.947720662646172e-05,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat4.jpg \u2192 boat5.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 509,
+      "keypoints_b": 661,
+      "matches": 180,
+      "inliers": 177,
+      "inlier_ratio": 0.9833,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 60.4,
+      "status": "ok",
+      "homography": [
+        [
+          1.364527287308933,
+          -0.018341780706171106,
+          -356.1552988830513
+        ],
+        [
+          0.13910761037054803,
+          1.2379609567429226,
+          -52.00479840152181
+        ],
+        [
+          0.00064231799229298,
+          -0.00013160113019134256,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat5.jpg \u2192 boat6.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 661,
+      "keypoints_b": 741,
+      "matches": 246,
+      "inliers": 209,
+      "inlier_ratio": 0.8496,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 71.14,
+      "status": "ok",
+      "homography": [
+        [
+          1.2596918270996842,
+          0.002013939326920859,
+          -248.57845908715115
+        ],
+        [
+          0.08949817468930141,
+          1.168587533910359,
+          -35.04185715780576
+        ],
+        [
+          0.00044252039183018674,
+          -1.642109922913003e-05,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat1.jpg \u2192 boat2.jpg",
+      "detector": "ORB",
+      "keypoints_a": 3332,
+      "keypoints_b": 2725,
+      "matches": 747,
+      "inliers": 707,
+      "inlier_ratio": 0.9465,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 27.8,
+      "status": "ok",
+      "homography": [
+        [
+          1.232911060356514,
+          0.004776590859831112,
+          -232.1158698181049
+        ],
+        [
+          0.07625413446679064,
+          1.1446878958297546,
+          -24.376434135972346
+        ],
+        [
+          0.00039719600225384386,
+          -9.005391231919468e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat2.jpg \u2192 boat3.jpg",
+      "detector": "ORB",
+      "keypoints_a": 2725,
+      "keypoints_b": 2728,
+      "matches": 843,
+      "inliers": 757,
+      "inlier_ratio": 0.898,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 33.06,
+      "status": "ok",
+      "homography": [
+        [
+          1.3693001085641487,
+          -0.0411873547838099,
+          -304.91107410119264
+        ],
+        [
+          0.12537329904314684,
+          1.2994713185732922,
+          -70.89540987554847
+        ],
+        [
+          0.0005627695538874053,
+          0.0001363216504960805,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat3.jpg \u2192 boat4.jpg",
+      "detector": "ORB",
+      "keypoints_a": 2728,
+      "keypoints_b": 2729,
+      "matches": 421,
+      "inliers": 395,
+      "inlier_ratio": 0.9382,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 62.4,
+      "status": "ok",
+      "homography": [
+        [
+          1.477228906667838,
+          0.0024488475704743124,
+          -443.41255972772404
+        ],
+        [
+          0.14597660584650687,
+          1.3724315020873328,
+          -84.21907950629743
+        ],
+        [
+          0.0007708047266347357,
+          8.077993218295209e-05,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat4.jpg \u2192 boat5.jpg",
+      "detector": "ORB",
+      "keypoints_a": 2729,
+      "keypoints_b": 3394,
+      "matches": 710,
+      "inliers": 670,
+      "inlier_ratio": 0.9437,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 35.61,
+      "status": "ok",
+      "homography": [
+        [
+          1.3514824388826725,
+          -0.02120474759929831,
+          -352.05957510067424
+        ],
+        [
+          0.13913599320463194,
+          1.2124525964162793,
+          -48.62210002134362
+        ],
+        [
+          0.0006379225351748892,
+          -0.0001660299243031881,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "boat",
+      "pair": "boat5.jpg \u2192 boat6.jpg",
+      "detector": "ORB",
+      "keypoints_a": 3394,
+      "keypoints_b": 3612,
+      "matches": 1047,
+      "inliers": 931,
+      "inlier_ratio": 0.8892,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 37.92,
+      "status": "ok",
+      "homography": [
+        [
+          1.2929471038921292,
+          0.037141044219143694,
+          -263.112020443768
+        ],
+        [
+          0.09768687031555255,
+          1.204959180998393,
+          -40.31695143934901
+        ],
+        [
+          0.0004751564773532693,
+          4.9093784946448415e-05,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "newspaper",
+      "pair": "newspaper1.jpg \u2192 newspaper2.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 2895,
+      "keypoints_b": 3977,
+      "matches": 1023,
+      "inliers": 968,
+      "inlier_ratio": 0.9462,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 130.68,
+      "status": "ok",
+      "homography": [
+        [
+          1.0008905885287274,
+          -0.002235127626074074,
+          237.01450805172632
+        ],
+        [
+          0.0024137251676024794,
+          1.0010932144702511,
+          0.19845345430703396
+        ],
+        [
+          3.2814205306288654e-06,
+          -3.256677181963415e-07,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "newspaper",
+      "pair": "newspaper2.jpg \u2192 newspaper3.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 3977,
+      "keypoints_b": 4805,
+      "matches": 1396,
+      "inliers": 1266,
+      "inlier_ratio": 0.9069,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 130.02,
+      "status": "ok",
+      "homography": [
+        [
+          1.002556987807143,
+          -0.0034642732344921253,
+          174.51423146599095
+        ],
+        [
+          0.004236257541431153,
+          1.001798882085699,
+          1.044236630439948
+        ],
+        [
+          5.121798635726879e-06,
+          3.947863168652327e-07,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "newspaper",
+      "pair": "newspaper3.jpg \u2192 newspaper4.jpg",
+      "detector": "SIFT",
+      "keypoints_a": 4805,
+      "keypoints_b": 5364,
+      "matches": 2387,
+      "inliers": 2255,
+      "inlier_ratio": 0.9447,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 128.36,
+      "status": "ok",
+      "homography": [
+        [
+          0.999945055650268,
+          0.011474623851586752,
+          103.58050844609437
+        ],
+        [
+          -0.01140143446183301,
+          0.9999595319313705,
+          2.8033908585151885
+        ],
+        [
+          1.0289522234987254e-06,
+          -1.0470574478071864e-06,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "newspaper",
+      "pair": "newspaper1.jpg \u2192 newspaper2.jpg",
+      "detector": "ORB",
+      "keypoints_a": 4530,
+      "keypoints_b": 4781,
+      "matches": 227,
+      "inliers": 177,
+      "inlier_ratio": 0.7797,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 68.23,
+      "status": "ok",
+      "homography": [
+        [
+          0.9938914908937238,
+          -0.00035738466727779864,
+          236.82906193054066
+        ],
+        [
+          -0.009614284275651688,
+          1.0055637754300366,
+          -0.6256955667479709
+        ],
+        [
+          -1.4470123842911087e-05,
+          3.532933099390707e-06,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "newspaper",
+      "pair": "newspaper2.jpg \u2192 newspaper3.jpg",
+      "detector": "ORB",
+      "keypoints_a": 4781,
+      "keypoints_b": 4756,
+      "matches": 1391,
+      "inliers": 1272,
+      "inlier_ratio": 0.9145,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 68.19,
+      "status": "ok",
+      "homography": [
+        [
+          1.0199293001610965,
+          -0.0037449402949579825,
+          173.9538634233424
+        ],
+        [
+          0.01655575062449049,
+          1.0070301380791253,
+          -0.2810800220926158
+        ],
+        [
+          4.911109889985146e-05,
+          1.1260383476647e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "opencv_samples",
+      "scene": "newspaper",
+      "pair": "newspaper3.jpg \u2192 newspaper4.jpg",
+      "detector": "ORB",
+      "keypoints_a": 4756,
+      "keypoints_b": 4576,
+      "matches": 1303,
+      "inliers": 1171,
+      "inlier_ratio": 0.8987,
+      "reprojection_error_px": NaN,
+      "runtime_ms": 136.85,
+      "status": "ok",
+      "homography": [
+        [
+          0.9999598524656413,
+          0.011022176181952732,
+          103.70646599848388
+        ],
+        [
+          -0.010343695211775614,
+          0.9996372907386385,
+          2.6996666329678565
+        ],
+        [
+          3.025462918453883e-06,
+          -2.2973177020894527e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "bark",
+      "pair": "img1 \u2192 img6",
+      "detector": "SIFT",
+      "keypoints_a": 3703,
+      "keypoints_b": 4626,
+      "matches": 259,
+      "inliers": 249,
+      "inlier_ratio": 0.9614,
+      "reprojection_error_px": 1.314,
+      "runtime_ms": 160.84,
+      "status": "ok",
+      "homography": [
+        [
+          -0.2156930336510912,
+          -0.12556385179395438,
+          585.9261426604764
+        ],
+        [
+          0.12568765454475223,
+          -0.21689116120040097,
+          355.32848139662894
+        ],
+        [
+          1.8102957202917668e-06,
+          -1.1858091596646202e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "bark",
+      "pair": "img1 \u2192 img6",
+      "detector": "ORB",
+      "keypoints_a": 4845,
+      "keypoints_b": 4910,
+      "matches": 27,
+      "inliers": 15,
+      "inlier_ratio": 0.5556,
+      "reprojection_error_px": 2.244,
+      "runtime_ms": 114.49,
+      "status": "ok",
+      "homography": [
+        [
+          -0.2433061154332534,
+          -0.12877671265581053,
+          579.0179945473315
+        ],
+        [
+          0.08851279316127926,
+          -0.2106098356908766,
+          355.52299226756423
+        ],
+        [
+          -8.548434308853544e-05,
+          -9.58349106907725e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "boat",
+      "pair": "img1 \u2192 img6",
+      "detector": "SIFT",
+      "keypoints_a": 8849,
+      "keypoints_b": 4258,
+      "matches": 214,
+      "inliers": 149,
+      "inlier_ratio": 0.6963,
+      "reprojection_error_px": 5.71,
+      "runtime_ms": 358.99,
+      "status": "ok",
+      "homography": [
+        [
+          0.25278272180457295,
+          0.2583051361859931,
+          234.35526456443654
+        ],
+        [
+          -0.2462955380127742,
+          0.24755692067492724,
+          364.22331860306434
+        ],
+        [
+          1.5061109762192154e-05,
+          9.44167199017591e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "boat",
+      "pair": "img1 \u2192 img6",
+      "detector": "ORB",
+      "keypoints_a": 5000,
+      "keypoints_b": 5000,
+      "matches": 112,
+      "inliers": 100,
+      "inlier_ratio": 0.8929,
+      "reprojection_error_px": 5.745,
+      "runtime_ms": 69.57,
+      "status": "ok",
+      "homography": [
+        [
+          0.25035941756198593,
+          0.2581345315112987,
+          234.79273315743208
+        ],
+        [
+          -0.24752489518607532,
+          0.24948894094274748,
+          363.2043857727478
+        ],
+        [
+          9.853334981588358e-06,
+          1.1476681924522492e-05,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "graf",
+      "pair": "img1 \u2192 img6",
+      "detector": "SIFT",
+      "keypoints_a": 2674,
+      "keypoints_b": 4791,
+      "matches": 49,
+      "inliers": 5,
+      "inlier_ratio": 0.102,
+      "reprojection_error_px": 384.207,
+      "runtime_ms": 177.85,
+      "status": "ok",
+      "homography": [
+        [
+          -0.09100603243585172,
+          -0.10072447511261218,
+          64.18381858671373
+        ],
+        [
+          -0.3051156691039885,
+          -0.33776910557895495,
+          215.22665509504338
+        ],
+        [
+          -0.0014180257606032443,
+          -0.0015692904210209263,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "graf",
+      "pair": "img1 \u2192 img6",
+      "detector": "ORB",
+      "keypoints_a": 5000,
+      "keypoints_b": 5000,
+      "matches": 31,
+      "inliers": 5,
+      "inlier_ratio": 0.1613,
+      "reprojection_error_px": 750.271,
+      "runtime_ms": 82.34,
+      "status": "ok",
+      "homography": [
+        [
+          -25.494276398626408,
+          18.842799609365656,
+          904.3907596709868
+        ],
+        [
+          -14.57458008097356,
+          8.938589940314829,
+          685.3092125762215
+        ],
+        [
+          -0.028923736656336275,
+          0.01791588728645184,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "wall",
+      "pair": "img1 \u2192 img6",
+      "detector": "SIFT",
+      "keypoints_a": 10356,
+      "keypoints_b": 10835,
+      "matches": 27,
+      "inliers": 11,
+      "inlier_ratio": 0.4074,
+      "reprojection_error_px": 4.281,
+      "runtime_ms": 449.2,
+      "status": "ok",
+      "homography": [
+        [
+          0.2472868708322801,
+          0.029301545278885375,
+          124.42152004536219
+        ],
+        [
+          -0.11131505564201963,
+          0.8824656930921615,
+          98.32597652246498
+        ],
+        [
+          -0.0004329978291358023,
+          1.0344366180750152e-05,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "wall",
+      "pair": "img1 \u2192 img6",
+      "detector": "ORB",
+      "keypoints_a": 5000,
+      "keypoints_b": 5000,
+      "matches": 9,
+      "inliers": 4,
+      "inlier_ratio": 0.4444,
+      "reprojection_error_px": 2098.02,
+      "runtime_ms": 85.97,
+      "status": "ok",
+      "homography": [
+        [
+          9.64986275065682,
+          -3.9820043727797323,
+          361.95080610104384
+        ],
+        [
+          2.874756257707355,
+          0.8867193481042812,
+          -246.6294092963108
+        ],
+        [
+          0.028611230835824737,
+          -0.026129300475120867,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "leuven",
+      "pair": "img1 \u2192 img6",
+      "detector": "SIFT",
+      "keypoints_a": 2460,
+      "keypoints_b": 1156,
+      "matches": 434,
+      "inliers": 365,
+      "inlier_ratio": 0.841,
+      "reprojection_error_px": 0.281,
+      "runtime_ms": 94.86,
+      "status": "ok",
+      "homography": [
+        [
+          1.0027439990495957,
+          0.01123845608283898,
+          2.6479215729995285
+        ],
+        [
+          0.0026217999968045557,
+          1.0102029207329535,
+          -16.18442870238583
+        ],
+        [
+          -5.84079006795246e-06,
+          2.491944919970668e-05,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "leuven",
+      "pair": "img1 \u2192 img6",
+      "detector": "ORB",
+      "keypoints_a": 4983,
+      "keypoints_b": 3277,
+      "matches": 1113,
+      "inliers": 1052,
+      "inlier_ratio": 0.9452,
+      "reprojection_error_px": 0.366,
+      "runtime_ms": 43.58,
+      "status": "ok",
+      "homography": [
+        [
+          1.0045766158609504,
+          0.011762950419875535,
+          1.9581983777115424
+        ],
+        [
+          0.003120230927659073,
+          1.0122456210118236,
+          -16.72147105627545
+        ],
+        [
+          -4.242377145856223e-06,
+          2.459324891136112e-05,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "bikes",
+      "pair": "img1 \u2192 img6",
+      "detector": "SIFT",
+      "keypoints_a": 3384,
+      "keypoints_b": 373,
+      "matches": 301,
+      "inliers": 153,
+      "inlier_ratio": 0.5083,
+      "reprojection_error_px": 1.892,
+      "runtime_ms": 122.69,
+      "status": "ok",
+      "homography": [
+        [
+          1.0322423639738978,
+          0.017487238092367907,
+          -15.96562049636268
+        ],
+        [
+          -0.008507906870426194,
+          1.039923516582569,
+          -45.78685295107335
+        ],
+        [
+          -2.8288317843848986e-06,
+          1.8083898833899904e-05,
+          1.0
+        ]
+      ]
+    },
+    {
+      "dataset": "oxford_vgg",
+      "scene": "bikes",
+      "pair": "img1 \u2192 img6",
+      "detector": "ORB",
+      "keypoints_a": 5000,
+      "keypoints_b": 989,
+      "matches": 567,
+      "inliers": 316,
+      "inlier_ratio": 0.5573,
+      "reprojection_error_px": 3.51,
+      "runtime_ms": 36.97,
+      "status": "ok",
+      "homography": [
+        [
+          1.0127761263410435,
+          -0.003148012635055117,
+          -7.625012917044834
+        ],
+        [
+          -0.010269625754058062,
+          0.9966992268646053,
+          -35.127975379863344
+        ],
+        [
+          -1.5298400485180455e-07,
+          -3.320770492344806e-05,
+          0.9999999999999999
+        ]
+      ]
+    }
+  ]
+}
